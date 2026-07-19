@@ -2,6 +2,7 @@ backend:
   name: github
   repo: DONGTIEN17/Travel_Blog # Thay bằng tên repo thực tế
   branch: main
+  base_url: https://sveltia-cms-auth.pages.dev
   app_id: Ov23likwbMHOVdSVH5Qp # Sẽ lấy ở Bước 3
 
 # Nơi lưu trữ ảnh khi bạn upload trên trang admin
