@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: DONGTIEN17/Travel_Blog # Thay bằng tên repo thực tế
+  branch: main
+  app_id: Ov23likwbMHOVdSVH5Qp # Sẽ lấy ở Bước 3
+
+# Nơi lưu trữ ảnh khi bạn upload trên trang admin
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Bài viết Du lịch"
+    folder: "src/content/blog" # Phải khớp với thư mục blog của template Astro
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Mô tả", name: "description", widget: "string" }
+      - { label: "Ngày đăng", name: "pubDate", widget: "datetime" }
+      - { label: "Ảnh bìa", name: "heroImage", widget: "image", required: false }
+      - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
