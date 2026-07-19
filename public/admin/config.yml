@@ -2,7 +2,7 @@ backend:
   name: github
   repo: DONGTIEN17/Travel_Blog
   branch: main
-  app_id: Ov23likaHPxau3lpMHvw
+  app_id: "Ov23likaHPxau3lpMHvw"
 
 # (Giữ nguyên các cấu hình khác ở bên dưới)
 
