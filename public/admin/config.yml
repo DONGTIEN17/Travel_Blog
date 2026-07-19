@@ -1,8 +1,12 @@
 backend:
   name: github
-  repo: DONGTIEN17/Travel_Blog # Thay bằng tên repo thực tế
+  repo: DONGTIEN17/Travel_Blog
   branch: main
-  app_id: Ov23likwbMHOVdSVH5Qp # Sẽ lấy ở Bước 3
+  base_url: https://github.com
+  auth_endpoint: login/oauth/authorize
+  app_id: Ov23likaHPxau3lpMHvw
+
+# (Giữ nguyên các cấu hình khác ở bên dưới)
 
 # Nơi lưu trữ ảnh khi bạn upload trên trang admin
 media_folder: "public/images/uploads"
